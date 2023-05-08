@@ -1,0 +1,60 @@
+ 
+ .navD{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: start;
+    
+    width: 100px;
+    height: 500px;
+
+    flex-direction: column;
+    border-right: 2px solid rgb(224, 224, 224);
+ }
+ .navD button{
+    border: none;
+
+    padding: 10px;
+    background-color: #fff;
+ }
+
+ .navE{
+    display:  flex;
+    justify-content: end;
+
+    /* flex-wrap: nowrap; */
+    width: 500px;
+    background-color: aqua;
+
+    border-left: 2px solid rgb(224, 224, 224);
+
+    text-align: center;
+
+ }
+
+ .navE button{
+
+    width: 300px;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-left: -10px;
+    border-radius: 40px;
+
+    margin-bottom: 10px;
+}
+
+.navE button h2{
+    font-size: 14px;
+
+}
+
+
+ .publi{
+    /* display: flex; */
+    justify-content: right;
+    align-content: flex-start;
+
+    width: 300px;
+    height: 100%;
+ }
